@@ -165,6 +165,7 @@ lg:h-[430px] overflow-hidden rounded-full border-4 border-blue-500 shadow-[0_0_6
   src="/images/profile.png"
   alt="Prosper"
   fill
+  loading="eager"
   sizes="(max-width: 768px) 280px, (max-width: 1024px) 380px, 430px"
   className="object-cover"
 />
