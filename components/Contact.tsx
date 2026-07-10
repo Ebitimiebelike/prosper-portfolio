@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  Mail,
-  MapPin,
-  Send,
-} from "lucide-react";
-
+import { Send } from "lucide-react";
 import ContactCard from "./ContactCard";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaLocationDot,
+} from "react-icons/fa6";
 
 export default function Contact() {
   return (
@@ -90,7 +90,7 @@ export default function Contact() {
           >
 
             <ContactCard
-              icon={Mail}
+              icon={FaEnvelope}
               title="Email"
               value="ebelikeebitimi6678@gmail.com"
               href="mailto:ebelikeebitimi6678@gmail.com"
@@ -111,7 +111,7 @@ export default function Contact() {
             />
 
             <ContactCard
-              icon={MapPin}
+              icon={FaLocationDot}
               title="Location"
               value="Lagos, Nigeria"
               href="#"
