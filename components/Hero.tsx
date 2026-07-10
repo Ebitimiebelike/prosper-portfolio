@@ -41,7 +41,7 @@ const tech = [
 export default function Hero() {
 
     const [open, setOpen] = useState(false);
-    
+
   return (
     <section className="relative overflow-hidden">
 
@@ -77,15 +77,16 @@ md:text-5xl text-5xl font-black leading-tight md:text-5xl
 md:text-6xl
 lg:text-7xl">
 
-            Building
+            Full-Stack Developer crafting
 
             <span className="text-blue-500">
 
-              {" "}Modern Web{" "}
+              {" "}fast, scalable &
+beautiful{" "}
 
             </span>
 
-            Experiences.
+            digital products.
 
           </h1>
 
