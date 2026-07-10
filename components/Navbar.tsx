@@ -16,7 +16,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const sections = document.querySelectorAll("section[id]");
+   const sections = document.querySelectorAll<HTMLElement>("section[id]");
 
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
