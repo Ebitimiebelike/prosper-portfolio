@@ -14,7 +14,6 @@ import MouseGlow from "@/components/MouseGlow";
 import TechArsenal from "@/components/TechArsenal";
 import CommandMenu from "@/components/CommandMenu";
 import CustomCursor from "@/components/CustomCursor";
-import Stars from "@/components/Stars";
 import SmoothScroll from "@/components/SmoothScroll";
 
 export default function Home() {
@@ -27,8 +26,6 @@ export default function Home() {
       <CommandMenu />
 
       <AnimatedGrid />
-
-      <Stars />
 
       <MouseGlow />
     ``
