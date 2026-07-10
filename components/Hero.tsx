@@ -11,32 +11,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { useState } from "react";
 import ResumeModal from "./ResumeModal";
 
-const tech = [
-  {
-    name: "Next.js",
-    className: "top-6 left-10",
-  },
-  {
-    name: "React",
-    className: "top-24 -left-10",
-  },
-  {
-    name: "Go",
-    className: "bottom-24 -left-6",
-  },
-  {
-    name: "Java",
-    className: "bottom-8 left-20",
-  },
-  {
-    name: "TypeScript",
-    className: "top-16 -right-8",
-  },
-  {
-    name: "Spring Boot",
-    className: "bottom-12 -right-12",
-  },
-];
 
 export default function Hero() {
 
@@ -202,37 +176,6 @@ lg:h-[430px] overflow-hidden rounded-full border-4 border-blue-500 shadow-[0_0_6
             </div>
 
             {
-
-tech.map((item)=>(
-
-<motion.div
-
-key={item.name}
-
-animate={{
-
-y:[0,-8,0]
-
-}}
-
-transition={{
-
-repeat:Infinity,
-
-duration:3+Math.random()
-
-}}
-
-className={`absolute ${item.className} rounded-full border border-white/10 bg-black/60 px-5 py-2 backdrop-blur-xl`}
-
->
-
-{item.name}
-
-</motion.div>
-
-))
-
 }
 
           </motion.div>
