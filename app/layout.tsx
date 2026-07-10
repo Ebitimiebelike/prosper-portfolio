@@ -2,28 +2,32 @@ import "./globals.css";
 import type { Metadata } from "next";
 import ThemeProvider from "@/components/ThemeProvider";
 
-export const metadata = {
-  title: "Prosper Ebelike | Full-Stack Developer",
+export const metadata: Metadata = {
+  metadataBase: new URL("https://timidbdev.vercel.app"),
+
+  title: "Prosper Ebelike | Full Stack Developer",
+
   description:
-    "Frontend & Backend Developer specializing in Next.js, React, Java, Spring Boot, Go, and modern web applications.",
-  keywords: [
-    "Prosper Ebelike",
-    "Frontend Developer",
-    "Full Stack Developer",
-    "Next.js",
-    "React",
-    "TypeScript",
-    "Spring Boot",
-    "Go",
-  ],
-  authors: [{ name: "Prosper Ebelike" }],
-  creator: "Prosper Ebelike",
+    "Frontend & Backend Developer specializing in Next.js, React, Java, Spring Boot and Go.",
+
   openGraph: {
-    title: "Prosper Ebelike Portfolio",
-    description: "Modern Full-Stack Developer Portfolio",
-    images: ["/images/og-image.png"],
+    title: "Prosper Ebelike",
+    description:
+      "Frontend & Backend Developer Portfolio",
+    url: "https://timidbdev.vercel.app",
+    siteName: "Prosper Portfolio",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
   },
 };
+
 export default function RootLayout({
   children,
 }: {
