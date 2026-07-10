@@ -98,7 +98,7 @@ beautiful{" "}
               <FaGithub size={24} />
             </a>
 
-            <a href="https://linkedin.com/in/ebitimiebelike-23469836a" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/ebitimiebelike-23469836a" target="_blank" rel="noopener noreferrer">
 
               <FaLinkedin size={24} />
 
@@ -162,16 +162,12 @@ lg:w-[430px]
 lg:h-[430px] overflow-hidden rounded-full border-4 border-blue-500 shadow-[0_0_60px_rgba(59,130,246,.45)]">
 
               <Image
-
-                src="/images/profile.png"
-
-                alt="Prosper"
-
-                fill
-
-                className="object-cover"
-
-              />
+  src="/images/profile.png"
+  alt="Prosper"
+  fill
+  sizes="(max-width: 768px) 280px, (max-width: 1024px) 380px, 430px"
+  className="object-cover"
+/>
 
             </div>
 

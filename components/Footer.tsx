@@ -16,7 +16,7 @@ const socials = [
 
   {
     icon: FaLinkedin,
-    href: "https://linkedin.com/in/ebitimiebelike-23469836a",
+    href: "https://www.linkedin.com/in/ebitimiebelike-23469836a",
   },
 
   {

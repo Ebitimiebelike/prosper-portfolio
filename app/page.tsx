@@ -18,7 +18,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 
 export default function Home() {
   return (
-    <main className="bg-[#080808] text-white overflow-x-hidden">
+    <main className="overflow-x-hidden bg-[var(--background)] text-[var(--foreground)] transition-colors duration-300">
       <LoadingScreen />
 
       <CustomCursor />
@@ -28,7 +28,7 @@ export default function Home() {
       <AnimatedGrid />
 
       <MouseGlow />
-    ``
+    
       <SmoothScroll />
 
       <ScrollProgress />

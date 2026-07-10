@@ -38,7 +38,7 @@ const techs=[
 icon:SiNextdotjs,
 title:"Next.js",
 description:"Building lightning-fast production applications.",
-color:"text-white",
+color:"text-zinc-950 dark:text-white",
 },
 
 {
@@ -108,7 +108,7 @@ color:"text-orange-500",
 icon:SiGithub,
 title:"GitHub",
 description:"Collaboration & CI.",
-color:"text-white",
+color:"text-zinc-950 dark:text-white",
 },
 
 {
@@ -133,13 +133,13 @@ className="py-32"
 
 <Reveal>
 
-<h2 className="text-center text-5xl font-black">
+<h2 className="text-center text-5xl font-black text-zinc-950 dark:text-white">
 
 Tech Arsenal
 
 </h2>
 
-<p className="mx-auto mt-6 max-w-2xl text-center text-zinc-400">
+<p className="mx-auto mt-6 max-w-2xl text-center text-zinc-500 dark:text-zinc-400">
 
 The technologies I use to design, build, test and deploy modern web applications.
 

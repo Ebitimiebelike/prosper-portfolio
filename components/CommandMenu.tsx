@@ -105,7 +105,7 @@ export default function CommandMenu() {
           <Command.Item
             onSelect={() =>
               window.open(
-                "https://linkedin.com/in/ebitimiebelike-23469836a",
+                "https://www.linkedin.com/in/ebitimiebelike-23469836a",
                 "_blank"
               )
             }

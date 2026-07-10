@@ -107,7 +107,7 @@ export default function Contact() {
               icon={FaLinkedin}
               title="LinkedIn"
               value="Prosper Ebelike"
-              href="https://linkedin.com/in/ebitimiebelike-23469836a"
+              href="https://www.linkedin.com/in/ebitimiebelike-23469836a"
             />
 
             <ContactCard
