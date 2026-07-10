@@ -12,7 +12,7 @@ const stats = [
   {
     icon: Briefcase,
     title: "Experience",
-    value: "Frontend & Backend Developer",
+    value: "Full Stack Developer",
   },
   {
     icon: MapPin,
