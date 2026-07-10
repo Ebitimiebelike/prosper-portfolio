@@ -53,7 +53,7 @@ export default function Footer() {
 
             <p className="mt-6 max-w-sm leading-8 text-zinc-400">
 
-              Frontend & Backend Developer passionate about
+              FullStack Developer passionate about
               building scalable, responsive and modern web
               applications.
 
